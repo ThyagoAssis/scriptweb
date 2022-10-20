@@ -1,0 +1,6 @@
+Intalação do Angular: 
+     npm install -g @angular/cli
+
+Cria um projeto: 
+    ng new nome_do_projeto
+        ex: ng new senac

@@ -1,0 +1,7 @@
+Angular - é um framework para desenvolvimento Web (HTML, CSS, LINGUAGEM (TypeScript))
+TypeScript - - Adiciona melhorias ao javascript original
+    -> Tipagem estatica 
+    -> Aponta erros na fase de desenvolvimento de uma aplicação
+    -> Desenvolvido pela Microsoft - código aberto 
+framework - é uma caixa de ferramentas
+SPA - Single Page Aplication - Trabalha como um porta retrato onde vc troca somente a foto e mantem a moldura.
