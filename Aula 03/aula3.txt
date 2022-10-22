@@ -1,0 +1,5 @@
+Istalação do Bootstrap no projeto: 
+    Passo 01: Acessar a pasta do nosso projeto ANGULAR: (tuxview)
+    Passo 02: Executar pelo o seguinte comando:  npm install bootstrap --save
+    Passo 03: Adicionar dentro do arquivo angular.json Adicionar a seguinte linha dentro da opção style "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    Passo 04: Reiniciar o servidor Angular
