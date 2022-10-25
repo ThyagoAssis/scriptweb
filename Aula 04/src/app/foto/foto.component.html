@@ -1,0 +1,21 @@
+
+<h1 class="text-center mt-3"> {{ titulo }} </h1>
+
+
+<div class="container">
+    <h1>Ola</h1>
+
+  <div class="row">
+    <div class="col-4" *ngFor="let foto of imagens; index as i ">
+
+      <div class="card shadow mt-5" style="width: 18rem;" *ngIf="i%2 == 0">
+        <img class="card-img-top" [src]="foto.img" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title">{{ foto.titulo }} index: {{ i }}</h5>      
+        </div>
+      </div>      
+    </div>
+  </div>
+  <button class="btn btn-primary" (click)="clicar()"> Clicar </button>
+
+</div>
