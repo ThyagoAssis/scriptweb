@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicioComponent implements OnInit {
 
-  imagemHome = "https://cdn.pixabay.com/photo/2020/04/20/14/47/car-5068532_960_720.png";
+  imagemHome = "https://cdn.pixabay.com/photo/2014/08/23/19/50/photography-425687_960_720.jpg";
   constructor() { }
 
   ngOnInit(): void {
