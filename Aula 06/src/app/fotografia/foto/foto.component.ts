@@ -11,9 +11,10 @@ import { Component } from "@angular/core";
 })
 
 export class FotoComponent{
-
+  nameButton = "Fotos Pares";
   titulo = "Minhas Fotos";
-
+  control = true;
+  
   //Criar um array de objetos para as fotos
   imagens = [
     {img: "https://cdn.pixabay.com/photo/2022/10/07/09/06/bridge-7504605__340.jpg", titulo: "Ponte" },
@@ -25,11 +26,14 @@ export class FotoComponent{
   ];
 
   //Método do botao de click
-  clicar(){
-    if(this.titulo == "Minhas Fotos"){
-      this.titulo = "Minhas Imagens";
+  mudar(){
+
+    this.control = !this.control;
+
+    if(this.nameButton == "Todas Imagens" ){
+      this.nameButton = "Fotos Pares"
     }else{
-      this.titulo = "Minhas Fotos";
-    }    
+      this.nameButton = "Todas Imagens";
+    }
   }
 }
