@@ -1,0 +1,15 @@
+{
+    "fotos": [
+        {
+            "id": 1,
+            "img": "https://cdn.pixabay.com/photo/2022/10/07/09/06/bridge-7504605__340.jpg", 
+            "titulo": "Ponte"
+        },
+
+        {
+            "id": 2,
+            "img": "https://cdn.pixabay.com/photo/2022/10/05/20/43/hyacinth-macaw-7501470__340.jpg", 
+            "titulo": "Arara"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+Passo 01 - Instalar o json-server:    npm install -g json-server
+Passo 02 - Criar o arquivo do tipo json ex: db.json
+Passo 03 - Iniciar a API Fake:  json-serve --watch db.json
+OBs: o comando do passo 3 deverá ser executado dentro da pasta onde o arquivo json foi criado
