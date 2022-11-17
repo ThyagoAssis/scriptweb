@@ -1,0 +1,9 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+export { MzDatepickerContainerComponent } from './datepicker-container/index';
+export { MzDatepickerDirective } from './datepicker.directive';
+export { MzDatepickerModule } from './datepicker.module';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZ3gtbWF0ZXJpYWxpemUvIiwic291cmNlcyI6WyJzcmMvZGF0ZXBpY2tlci9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsK0NBQWMsOEJBQThCLENBQUM7QUFDN0Msc0NBQWMsd0JBQXdCLENBQUM7QUFDdkMsbUNBQWMscUJBQXFCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tICcuL2RhdGVwaWNrZXItY29udGFpbmVyL2luZGV4JztcclxuZXhwb3J0ICogZnJvbSAnLi9kYXRlcGlja2VyLmRpcmVjdGl2ZSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vZGF0ZXBpY2tlci5tb2R1bGUnO1xyXG4iXX0=

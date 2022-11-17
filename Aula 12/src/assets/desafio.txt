@@ -1,0 +1,12 @@
+Desafio Aula 11: 
+    Configurar o botão excluir para chamar um método deletar
+    Configurar o método deletar para excluir uma foto na Web API
+
+    Irão precisar: 
+        -> httpclient
+        -> httpoptions
+        -> capturar o id da foto(ja feito)
+        -> O id da foto precisa ser passado para o metodo deletar
+
+
+Data de Entrega 16/11/2022

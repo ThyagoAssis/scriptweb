@@ -1,0 +1,7 @@
+Desafio mão na massa: 
+    Configurar o método postFoto(){} no databaseservice para cadastrar foto
+    Substitiur o httpclient no formulario.componet.ts pelo databaseservice
+    Utilizar o método postFoto(){} dentro formulario.componet.ts
+
+    Configurar o método delFoto(){} para deletar uma delFoto
+    Utilizar o método delFoto(){} dentro do foto.componet.ts

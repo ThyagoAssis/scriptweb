@@ -1,0 +1,8 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+export { MzSidenavCollapsibleHeaderComponent } from './sidenav-collapsible-header/index';
+export { MzSidenavCollapsibleComponent, MzSidenavCollapsibleContentDirective } from './sidenav-collapsible.component';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZ3gtbWF0ZXJpYWxpemUvIiwic291cmNlcyI6WyJzcmMvc2lkZW5hdi9zaWRlbmF2LWNvbGxhcHNpYmxlL2luZGV4LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7QUFBQSxvREFBYyxvQ0FBb0MsQ0FBQztBQUNuRCxvRkFBYyxpQ0FBaUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCAqIGZyb20gJy4vc2lkZW5hdi1jb2xsYXBzaWJsZS1oZWFkZXIvaW5kZXgnO1xyXG5leHBvcnQgKiBmcm9tICcuL3NpZGVuYXYtY29sbGFwc2libGUuY29tcG9uZW50JztcclxuIl19

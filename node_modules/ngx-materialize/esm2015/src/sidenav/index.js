@@ -1,0 +1,13 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes} checked by tsc
+ */
+export { MzSidenavComponent } from './sidenav.component';
+export { MzSidenavModule } from './sidenav.module';
+export { MzSidenavCollapsibleHeaderComponent, MzSidenavCollapsibleComponent, MzSidenavCollapsibleContentDirective } from './sidenav-collapsible/index';
+export { MzSidenavDividerComponent } from './sidenav-divider/index';
+export { MzSidenavHeaderComponent } from './sidenav-header/index';
+export { MzSidenavLinkComponent } from './sidenav-link/index';
+export { MzSidenavSubheaderComponent } from './sidenav-subheader/index';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZ3gtbWF0ZXJpYWxpemUvIiwic291cmNlcyI6WyJzcmMvc2lkZW5hdi9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsbUNBQWMscUJBQXFCLENBQUM7QUFDcEMsZ0NBQWMsa0JBQWtCLENBQUM7QUFDakMseUhBQWMsNkJBQTZCLENBQUM7QUFDNUMsMENBQWMseUJBQXlCLENBQUM7QUFDeEMseUNBQWMsd0JBQXdCLENBQUM7QUFDdkMsdUNBQWMsc0JBQXNCLENBQUM7QUFDckMsNENBQWMsMkJBQTJCLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgKiBmcm9tICcuL3NpZGVuYXYuY29tcG9uZW50JztcclxuZXhwb3J0ICogZnJvbSAnLi9zaWRlbmF2Lm1vZHVsZSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vc2lkZW5hdi1jb2xsYXBzaWJsZS9pbmRleCc7XHJcbmV4cG9ydCAqIGZyb20gJy4vc2lkZW5hdi1kaXZpZGVyL2luZGV4JztcclxuZXhwb3J0ICogZnJvbSAnLi9zaWRlbmF2LWhlYWRlci9pbmRleCc7XHJcbmV4cG9ydCAqIGZyb20gJy4vc2lkZW5hdi1saW5rL2luZGV4JztcclxuZXhwb3J0ICogZnJvbSAnLi9zaWRlbmF2LXN1YmhlYWRlci9pbmRleCc7XHJcbiJdfQ==

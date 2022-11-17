@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
+    "ngx-materialize": "^6.1.3"
+  }
+}
