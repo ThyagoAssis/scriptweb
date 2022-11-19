@@ -1,0 +1,26 @@
+
+<!-- <h1 class="text-center mt-3"> {{ titulo }} </h1> -->
+
+
+<div class="container mt-5 mb-2 "> 
+  <button class="btn btn-outlet mt-5" (click)="mudar()">{{ nameButton }}</button>
+  <div class="row">
+    
+    <div class="col col-md-4" *ngFor="let foto of imagens; index as i">
+
+      
+      <div class="card shadow mt-3 " style="width: 18rem;" *ngIf="control == true || i%2 == 0">
+        <img class="card-img-top" [src]="foto.img" alt="Imagem de capa do card">
+        <div class="card-body">
+          <h5 class="card-title text-center ">{{ foto.titulo }}</h5>
+          <button (click)="deletar(foto.id)" type="button" class="btn btn-outline btn-sm text-danger">Excluir</button> 
+          
+        </div>    
+        
+     
+      
+    </div>    
+  </div>  
+</div>
+
+

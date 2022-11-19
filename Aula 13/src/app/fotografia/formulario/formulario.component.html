@@ -1,0 +1,56 @@
+
+<!-- Template Driven do Angular -->
+<!-- OBS: Para usar o ngForm precisa fazer a importação do modulo FormsModule
+    no arquivo de modulo que é responsavel pelo component 
+    (ex: fotografia.module.ts)
+-->
+<!-- ngForm -> vai permitir criar uma variavel no html -->
+<!-- ngModel -> vai trabalhar em conjunto com o ngForm -->
+<!-- ngSubmit vai enviar as informações do formulario para o arquivo .ts -->
+
+
+<!-- Template Driven -->
+<!-- <div class="container " style="margin-top: 150px;">
+    <h1 class="text-center"> Formulario para Cadastro</h1>
+
+<form #form="ngForm" (ngSubmit)="cadastrar(form)">
+
+    <div class="form-group mt-3">
+        <label for="">Informe o endereço da Imagem: </label>
+        <input class="form-control" type="url"  name="img" ngModel required>
+    </div>
+    
+
+    <div class="form-group mt-3">
+
+        <label for="">Informe o titulo da Imagem: </label>
+        <input class="form-control" type="text"  name="titulo" ngModel required>
+
+    </div>
+    
+    <button class="btn btn-primary mt-3" type="submit" [disabled]="form.invalid" >{{ nameButton }}</button>
+</form>
+</div> -->
+
+
+<!-- Formulario com data driven -->
+<div class="container " style="margin-top: 150px;">
+<h1 class="text-center"> Formulario para Cadastro</h1>
+
+<form [formGroup]="formulario" (submit)="cadastro()">
+
+    <div class="form-group mt-3">
+        <label for="">Informe o endereço da Imagem: </label>
+        <input class="form-control" type="url" formControlName="img">
+    </div>    
+
+    <div class="form-group mt-3">
+
+        <label for="">Informe o titulo da Imagem: </label>
+        <input class="form-control" type="text" formControlName="titulo">
+
+    </div>
+    
+    <button class="btn btn-primary mt-3" type="submit">{{ nameButton }}</button>
+</form>
+</div>
