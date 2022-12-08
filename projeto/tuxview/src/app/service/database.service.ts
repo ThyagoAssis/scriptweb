@@ -27,9 +27,12 @@ export class DatabaseService {
 
   //Metodo que captura todas as fotos
   getFoto(){   
-     return this.http.get<Fotos[]>(this.API); 
-    
+     return this.http.get<Fotos[]>(this.API);     
   }
+
+  getFotoOne(id: number){   
+    return this.http.get<Fotos[]>(this.API + id);     
+ }
 
   //Método de cadastro da foto
   postFoto(dados: Fotos){
@@ -39,5 +42,9 @@ export class DatabaseService {
   //Exclusão da foto
   delFoto(id:number){
     return this.http.delete(this.API + id).subscribe();
+  }
+
+  updateFoto(dados: any, id: any ){
+    return this.http.put(this.API + id, JSON.stringify(dados), this.httpOptions).subscribe();
   }
 }

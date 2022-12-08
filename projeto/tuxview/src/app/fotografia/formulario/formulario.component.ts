@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 import { DatabaseService } from 'src/app/service/database.service';
 
@@ -21,7 +22,8 @@ export class FormularioComponent implements OnInit {
   //O constructor da classe sera somente para injeção de dependecia  
   constructor(
     private formBuilder: FormBuilder,
-    private database: DatabaseService
+    private database: DatabaseService,
+    private router: Router
     ){}
 
   //Ciclo de vida do Angular
@@ -44,6 +46,8 @@ export class FormularioComponent implements OnInit {
   //JSON.stringify converte os dados para o formato json
   cadastro(){    
    this.database.postFoto(this.formulario.value);
+   this.router.navigate(['/fotos']);
+   
   }
 
   //Todo método pode ou não receber um parametro

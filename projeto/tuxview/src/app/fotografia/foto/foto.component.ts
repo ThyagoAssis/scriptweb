@@ -5,6 +5,7 @@ import { Component } from "@angular/core";
 
 import { Fotos } from './foto';
 import { DatabaseService } from '../../service/database.service';
+import { Router } from "@angular/router";
 
 @Component({
     selector: 'app-foto',
@@ -26,10 +27,11 @@ export class FotoComponent{
   //Ela tambem permite fazer todo o crud
   //Injeção de dependencia - Que é disponiilizar a ferrammenta dentro dos () do constru
   
-  constructor(private database: DatabaseService){}
+  constructor(
+    private database: DatabaseService,    
+    ){}
 
-  ngOnInit(){
-   
+  ngOnInit(){   
     try{
 
       this.database.getFoto().subscribe(caixa => this.imagens = caixa); 
@@ -48,6 +50,9 @@ export class FotoComponent{
    try{
 
     this.database.delFoto(id);
+    
+   
+
 
    }catch(error){
 
